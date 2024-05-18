@@ -1,4 +1,4 @@
-import create from "zustand";
+import { create } from "zustand";
 
 // Se crea un estado global usando Zustand
 const useStore = create((set) => ({
