@@ -33,13 +33,11 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px 0;
   padding: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product-card:hover {
   cursor: pointer;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .product-card img {
@@ -68,6 +66,9 @@ h1 {
   margin-top: 10px;
   margin-left: auto;
   font-weight: bold;
+  padding: 3px 6px;
+  background: #ffbf00;
+  border-radius: 6%;
 }
 
 .product-info {
